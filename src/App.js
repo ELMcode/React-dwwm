@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from "./components/Hello";
 import Identity from "./components/Identity";
+import Time from "./components/Time";
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
                     Learn React
                 </a>
                 <Hello/>
+                <Time date={new Date()}/>
                 <Identity
                     name={'Amine'}
                     bio={'Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio'}
