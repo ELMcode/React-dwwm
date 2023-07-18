@@ -3,6 +3,7 @@ import './App.css';
 import Hello from "./components/Hello";
 import Identity from "./components/Identity";
 import Time from "./components/Time";
+import Use from "./components/Use"
 
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
                     name={'Amine'}
                     bio={'Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio Test bio'}
                         />
+                <Use/>
             </header>
         </div>
     );
